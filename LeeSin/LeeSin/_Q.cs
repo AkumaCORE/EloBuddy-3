@@ -40,7 +40,7 @@ namespace LeeSin
             }
             if (IsTryingToSmite)
             {
-                if (IsWaitingMissile)//
+                if (MissileIsValid)//
                 {
                     var canSmite = false;
                     if (Game.Time - _lastCastTime <= 0.25f)
